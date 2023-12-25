@@ -10,15 +10,15 @@ html,body{
 }
 @font-face {
     font-family: a;
-    src: url(jost-variable.ttf);
+    src: url(jost-variable.woff2);
 }
 @font-face {
     font-family: b;
-    src: url(Roboto.ttf);
+    src: url(Roboto.woff2);
 }
 @font-face {
     font-family: c;
-    src: url(Roboto\ Medium.ttf);
+    src: url(Roboto\ Medium.woff2);
 }
 
 #main{
