@@ -52,6 +52,7 @@ document.querySelector("#page2>h1").textContent.split(" ").forEach(function(dets
 
 gsap.to("#page2>h1>span", {
   scrollTrigger:{
+    // why `` these are used instead of ''
     trigger:`#page2>h1>span`,
     start:`top bottom`, // first is for the element value and second is for the screen value 
     end:`bottom top`,
@@ -59,6 +60,6 @@ gsap.to("#page2>h1>span", {
     scrub:.5,
     markers:true,
   },
-  stagger:.2,
+  stagger:0.1,
   color:`white`,
 })
